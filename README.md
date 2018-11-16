@@ -1,3 +1,5 @@
+# Original Author: https://github.com/maciejsaw/tooltipster-for-webflow/
+
 # Tooltipster for Webflow
 Easily add tooltips to your Weblow.io website, without leaving the "Designer" interface. 
 
