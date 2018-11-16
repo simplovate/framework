@@ -1,5 +1,10 @@
 # Original Author: https://github.com/maciejsaw/tooltipster-for-webflow/
 
+Changed from rawgit.com to jsdeliver.net as rawgit is shutting down
+Changed origin to simplovate/framework.
+Changed name from tooltipster-for-webflow.js to tooltipster-for-webflow-borderless.js to better reflect purpose
+Added support for shadow style - change name to tooltipster-for-webflow-shadow.js and appropriate theme in css stylesheet entry
+
 # Tooltipster for Webflow
 Easily add tooltips to your Weblow.io website, without leaving the "Designer" interface. 
 
@@ -16,13 +21,12 @@ Paste the following code into the "Custom code" section inside Webflow Site sett
 
 Add the end of the \</head> tag
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/iamceege/tooltipster/master/dist/css/tooltipster.bundle.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/iamceege/tooltipster/master/src/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.css">
-```
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/iamceege/tooltipster/dist/css/tooltipster.bundle.min.css"> 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/iamceege/tooltipster/src/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css">```
 Add code before \</body> tag:
 ```
-<script src="https://cdn.rawgit.com/iamceege/tooltipster/master/dist/js/tooltipster.bundle.min.js"></script>
-<script src="https://cdn.rawgit.com/maciejsaw/tooltipster-for-webflow/master/tooltipster-for-webflow.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/iamceege/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh//simplovate/framework/tooltipster-for-webflow.js"></script>
 ```
 
 This will load the scripts from a free server that hosts Github files. 
